@@ -7,6 +7,8 @@ import ProductModel from "../src/models/products/index.js";
 
 dotenv.config();
 
+/*Comment added*/
+
 const request = supertest(server);
 
 jest.setTimeout(10000);
